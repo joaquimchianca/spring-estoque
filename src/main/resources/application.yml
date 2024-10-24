@@ -1,0 +1,14 @@
+spring:
+   application:
+      name: EstoqueApp
+   datasource:
+      url: "jdbc:postgresql://localhost:5433/spring_estoque"
+      username: postgres
+      password: postgres
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      properties:
+        hibernate:
+           format_sql: true
